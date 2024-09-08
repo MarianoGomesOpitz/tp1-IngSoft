@@ -29,5 +29,3 @@ def test_actualiza_producto():
     with pytest.raises(Exception)as e:
         leche.actualizar_precio(-1)
     assert str(e.value) =="El valor recibido es negativo"
-    
-##Es posible, con el metodo de integracion descendente
