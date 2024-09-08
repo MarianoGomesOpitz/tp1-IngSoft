@@ -22,13 +22,3 @@ def test_aplicar_descuento_mock():
     tienda= Tienda()
     tienda.agregar_producto(mock_producto)
     assert tienda.aplicar_descuento("leche", 50)
-    
-## En lo que va del tp, se puede identificar que los drivers son aquellos modulos que empiezan por "test_",
-## que sirven para probar los módulos.
-## En cambio, la aparición de resguardos se da en este ejercicio con la utilización de mocks, para simular el
-## valor de retorno de un módulo.
-
-## Un mock es un objeto simulado que reemplaza un componente o dependencia real del código durante una prueba. 
-## Los mocks se utilizan para aislar la unidad de código que se está probando, asegurando que las pruebas no 
-## dependan de otros componentes externos o de comportamientos impredecibles.
-## Otros nombres por los que se le conoce a los mocks son resguardos, stubs, spy, fake, patch.
