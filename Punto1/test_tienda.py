@@ -40,6 +40,3 @@ def test_elimina_producto2():
     tienda = Tienda()
     agregarProductos(tienda)
     assert not tienda.eliminar_producto("zeta")
-    
-##Preguntas:  
-# Unicamente puede testearse de forma individual la funcion agregar_producto. El resto son pruebas de integracion 
